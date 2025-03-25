@@ -9,10 +9,11 @@ body {
   font-size: 16px;
   line-height: 1.6;
   background-color: #f8f9fa;
-  color: #333;
+  color: gray;
 }
 
 .header {
+  background-image: url(Photos/OIP);
   height: 100vh;
   color: rgb(212, 200, 200);
   display: flex;
