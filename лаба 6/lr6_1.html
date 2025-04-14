@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Калькулятор (Position)</title>
+  <style>
+    .calculator {
+      width: 220px;
+      height: 330px;
+      background: #e0f2f1;
+      border-radius: 10px;
+      padding: 15px;
+      position: relative;
+      font-family: sans-serif;
+    }
+
+    .brand {
+      position: absolute;
+      top: 5px;
+      right: 10px;
+      font-size: 12px;
+      color: #555;
+    }
+
+    .display {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 180px;
+      height: 40px;
+      background: white;
+      padding: 10px;
+      font-size: 18px;
+      box-sizing: border-box;
+      text-align: right;
+    }
+
+    .btn {
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      background: white;
+      border: 1px solid #ccc;
+      text-align: center;
+      line-height: 50px;
+      font-size: 18px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 2px #ccc;
+      cursor: pointer;
+    }
+
+    /* Розташування кнопок */
+    /* 1 ряд */
+    .btn1 { top: 80px; left: 10px; }
+    .btn2 { top: 80px; left: 65px; }
+    .btn3 { top: 80px; left: 120px; }
+    .btn4 { top: 80px; left: 175px; }
+
+    /* 2 ряд */
+    .btn5 { top: 135px; left: 10px; }
+    .btn6 { top: 135px; left: 65px; }
+    .btn7 { top: 135px; left: 120px; }
+    .btn8 { top: 135px; left: 175px; }
+
+    /* 3 ряд */
+    .btn9  { top: 190px; left: 10px; }
+    .btn10 { top: 190px; left: 65px; }
+    .btn11 { top: 190px; left: 120px; }
+    .btn12 { top: 190px; left: 175px; }
+
+    /* 4 ряд */
+    .btn13 { top: 245px; left: 10px; }
+    .btn14 { top: 245px; left: 65px; }
+    .btn15 { top: 245px; left: 120px; }
+    .btn16 { top: 245px; left: 175px; }
+
+  </style>
+</head>
+<body>
+  <div class="calculator">
+    <div class="brand">Casio 3234</div>
+    <input class="display">
+
+    <div class="btn btn1">7</div>
+    <div class="btn btn2">8</div>
+    <div class="btn btn3">9</div>
+    <div class="btn btn4">+</div>
+
+    <div class="btn btn5">4</div>
+    <div class="btn btn6">5</div>
+    <div class="btn btn7">6</div>
+    <div class="btn btn8">-</div>
+
+    <div class="btn btn9">1</div>
+    <div class="btn btn10">2</div>
+    <div class="btn btn11">3</div>
+    <div class="btn btn12">/</div>
+
+    <div class="btn btn13">0</div>
+    <div class="btn btn14">,</div>
+    <div class="btn btn15">=</div>
+    <div class="btn btn16">*</div>
+  </div>
+</body>
+</html>
